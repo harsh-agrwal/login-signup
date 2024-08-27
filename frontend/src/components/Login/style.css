@@ -1,0 +1,90 @@
+.wrapperForLogin{
+  background-color: rgb(23, 149, 222);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.containerForLoginForm{
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 350px;
+  gap: 22px;
+  position: relative;
+}
+.headingText{
+  font-size: 24px;
+  font-weight: 600;
+}
+.loginButton{
+  background-color: rgb(23, 149, 222);;
+  color: white;
+  border-radius: 8px;
+  width: 80%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.forgotPasswordText{
+  color: rgb(23, 149, 222);
+  cursor: pointer;
+}
+
+.signUpLinkText{
+  display: flex;
+}
+
+.loginInput{
+  height: 35px;
+  width: 75%;
+  border-radius: 8px;
+  padding: 0px 8px;
+  border: 1px solid grey;
+}
+.disabledButton{
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.signUpText{
+  color: rgba(112, 115, 133, 1);
+  font-weight: 500;
+  font-size: 14px;
+  width: fit-content;
+  padding: 0px 10px;
+  margin: 0 auto;
+  background: rgba(234, 238, 250, 1);
+  position: relative;
+  z-index: 1;
+}
+.signupContainer{
+  background: rgba(112, 115, 133, 1);
+  height: 1px;
+  margin-top: -8px;
+}
+.eyeIconForLogin{
+  position: absolute;
+  right: 16%;
+  top: 28%;
+  cursor: pointer;
+}
+.signinContainer{
+  background: white;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+  cursor: pointer;
+  width: 80%;
+}

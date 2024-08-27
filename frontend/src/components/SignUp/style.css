@@ -1,0 +1,37 @@
+.eyeIconForSignup{
+  position: absolute;
+  right: 16%;
+  top: 38%;
+  cursor: pointer;
+}
+.errorText{
+  color: red;
+    font-size: 13px;
+    position: absolute;
+    top: 21%;
+    left: 16%;
+}
+
+.passwordContainer{
+  border-radius: 10px;
+  background: white;
+  padding: 15px;
+  width: 65%;
+  z-index: 10;
+  top: 35%;
+  position: absolute;
+  margin-top: 5px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
+}
+.passwordContentContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.passwordContent{
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
